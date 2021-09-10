@@ -118,13 +118,6 @@ async def found_match(connection, event):
 
     with open("team.js", "w") as file:
         if prev != up and prev != "":
-
-            print("prev:")
-            pprint(prev)
-            print("\n\nup:")
-            pprint(up)
-            print()
-
             file.write(
                 f"data = {str(json.dumps(data))}"
             )
