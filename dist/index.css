@@ -1,0 +1,43 @@
+body {
+  text-align: center;
+}
+
+img {
+  height: 3rem;
+  width: 3rem;
+}
+
+p {
+  font-size: small;
+}
+
+.parent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.box {
+  flex: 0 1 280px; /*  No stretching: */
+  margin: 5px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  max-width: 240px;
+}
+
+.card {
+  max-width: 236px;
+}
+
+.card-body {
+  padding: 0rem 0rem 0rem 0rem;
+}
+
+.winrate {
+  color: black;
+  background-color: yellow;
+}
+
+.card-text {
+  margin: 0px 0px 0px 0px;
+}
